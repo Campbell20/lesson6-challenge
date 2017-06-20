@@ -1,0 +1,84 @@
+/**
+ * Media Queries
+ **/
+ 
+//phones vertical
+@media (min-width: 320px) {
+  body::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+  
+  .dogimage-container {
+    height: 20.0rem;
+    width: 100%;
+  }
+  
+  .doginfo-text h2 {
+    margin: 0;
+    padding-top: .2rem;
+  }
+  
+  .doginfo-text h3 {
+    margin: .5rem;
+  }
+  
+  .doginfo-icons {
+    padding: 1.0rem;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .doginfo-icons img {
+    height: 3.0rem;
+    width: 3.0rem;
+    margin: 0 1.2rem 0 0;
+  }
+  
+}
+
+
+// ipads and phones horzontial
+@media (min-width: 620px) {
+  body::before {
+    content: "620px";
+    color: orange;
+  }
+  
+}
+
+
+//computers
+@media (min-width: 810px) {
+  body::before {
+    content: "810px";
+    color: black;
+  }
+
+}
+
+
+
+
+
+// @media (min-width: 1200px) {
+//   body::before {
+//     content: "1200px";
+//     color: CornflowerBlue;
+//   }
+// }
+
+// @media (min-width: 1400px) {
+//   body::before {
+//     content: "1400px";
+//     color: red;
+//   }
+// }

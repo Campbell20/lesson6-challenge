@@ -1,0 +1,35 @@
+---
+---
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #dc7431;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dogimage-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.doginformation-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.bigdogimage-container{
+    margin:0;
+    padding:0;
+}
+
+.bigdogimage-container img {
+    height: auto;
+    width: 100%;
+}
+

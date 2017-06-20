@@ -1,0 +1,77 @@
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color:#1f1f1f;
+    padding: 2.0rem;
+}
+
+.subscribeform-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+
+input::placeholder {
+    color: white;
+}
+
+.subscribeform-container input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px 0px 0px 4px;
+    border-right-width: 0px;
+    font-size: 12px;
+    background-color: black;
+    padding: 12px 0px 12px 20px;
+    margin:0;
+    margin-left: 3.5rem;
+}
+
+
+input[type=submit] {
+    background-position: 10px 10px; 
+    background-color: #e95a07;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 9.5px 20px;
+    text-decoration: none;
+    border: 2px solid #6b4d1b;
+    border-left-width: 0px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.socialmedia-container {
+    display:inline-flex;
+    justify-content: center;
+    padding: 1.0rem;
+}
+
+.socialmedia-container img {
+    margin: .5rem;
+}
+
+.dontate-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dontateheart {
+    padding-top: .2rem;
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
+    background-color: #33a13a;
+}
+
+.donatebutton {
+    background-color: white;
+    color: #33a13a;
+    padding:.8rem 3.0rem ;
+}
