@@ -4,18 +4,18 @@
  
 //phones vertical
 @media (min-width: 320px) {
-  body::before {
-    content: "320px";
-    font-family: Arial, sans-serif;
-    color: green;
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-weight: 700;
-    margin: 5px;
-    font-size: 2rem;
-    z-index: 9999;
-  }
+  // body::before {
+  //   content: "320px";
+  //   font-family: Arial, sans-serif;
+  //   color: green;
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   font-weight: 700;
+  //   margin: 5px;
+  //   font-size: 2rem;
+  //   z-index: 9999;
+  // }
   
   nav {
    flex-flow: column wrap;
@@ -110,10 +110,10 @@
 
 // ipads and phones horzontial
 @media (min-width: 620px) {
-  body::before {
-    content: "620px";
-    color: orange;
-  }
+  // body::before {
+  //   content: "620px";
+  //   color: orange;
+  // }
   
   nav {
    flex-flow: row nowrap;
@@ -226,10 +226,10 @@
 
 //computers
 @media (min-width: 810px) {
-  body::before {
-    content: "810px";
-    color: black;
-  }
+  // body::before {
+  //   content: "810px";
+  //   color: black;
+  // }
   
   .content-subcontainer{
     max-width: 35rem;
