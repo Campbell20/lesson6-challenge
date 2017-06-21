@@ -26,11 +26,27 @@ nav {
 }
 
 .menu-container {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    background: url('../images/paw-icon.png') 50% 50% no-repeat;
+}
+
+select {
+    
+    padding:1.0rem 0;
+    background: transparent;
+    border: none;
+    font-size:1rem;
+    overflow: hidden;
+}
+
+
+select::focus {
+    border: none;
 }
 
 .menutext{
-    margin-left: .5rem;
     font-size: 1.0rem;
     display:flex;
     justify-content: center;

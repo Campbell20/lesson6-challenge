@@ -1,16 +1,21 @@
-
 <nav>
     <div class="logo-container-mobile">
         <img src="{{ site.github.url }}/images/Logo.png" alt="a dogs life" />
     </div>
     <div class="navigation-container">
         <div class="menu-container">
-            <img src="{{ site.github.url }}/images/paw-icon.png" alt="a paw icon" />
+            <select size="1" dir="rtl" class="menu" onchange="location.href=this.value">
+               <option></option> 
+               <option value="{{ site.github.url }}/index.html">HOME</option>
+               <option value="{{ site.github.url }}/pages/about-us.html">ABOUT US</option>
+               <option value="{{ site.github.url }}/pages/adoptions.html">ADOPTIONS</option>
+               <option value="{{ site.github.url }}/pages/contact-us.html">CONTACT US</option>
+              </select>     
             <div class="menutext">
                 Menu
             </div>
         </div>
-    
+
         <div class="logo-container-computer">
             <img src="{{ site.github.url }}/images/Logo.png" alt="a dogs life" />
         </div>
@@ -27,6 +32,6 @@
             </div>
         </div>
     </div>
-        
+
 
 </nav>
