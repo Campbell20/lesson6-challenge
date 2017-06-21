@@ -17,8 +17,29 @@
     z-index: 9999;
   }
   
-  .dogimage-container {
-    height: 20.0rem;
+  nav {
+   flex-flow: column wrap;
+  }
+  
+  .logo-container-mobile img {
+    height: auto;
+    width: 50%;
+  }
+  
+  .logo-container-computer{
+    display: none;
+  }
+  
+  .navigation-container{
+    padding: 0 1rem;
+  }
+  
+  .search-container input[type=text] {
+    width: 70%;
+  }
+  
+  .dogimage-container img {
+    height: auto;
     width: 100%;
   }
   
@@ -43,6 +64,47 @@
     margin: 0 1.2rem 0 0;
   }
   
+  .dontateheart {
+    padding-top: .2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .donatebutton {
+    padding: .6rem 1.0rem;
+    font-size: 1.4rem;
+  }
+  
+  .content-container{
+    flex-flow: column wrap;
+  }
+  
+  .content-subcontainer{
+    flex-flow: column wrap;
+  }
+  
+  footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 2.0rem;
+  }
+  .subscribeform-container input[type=text] {
+    width: 100%;
+    border-radius: .4rem 0 0 .4rem;
+    border-right-width: 0;
+    font-size: .7rem;
+    padding: .8rem 0 .8rem .4rem;
+    margin:0;
+  }
+
+
+  .subscribeform-container input[type=submit] {
+    background-position: 1.0rem 1.0rem; 
+    padding: 9.5px 2.0rem;
+  }
+  
+  
 }
 
 
@@ -53,6 +115,112 @@
     color: orange;
   }
   
+  nav {
+   flex-flow: row nowrap;
+  }
+  
+  .navigation-container{
+    padding:0 .5rem;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo-container-mobile {
+    display: none;
+  }
+  
+  .logo-container-computer {
+    display: flex;
+  }
+  
+  .logo-container-computer img {
+    height: auto;
+    width: 80%;
+  }
+  
+  .menu-container {
+    align-items: center;
+  }
+  
+  .menu-container img {
+    height: 3.0rem;
+    width: 100%;
+  }
+  .search-container input[type=text] {
+    width: 80%;
+  }
+
+  .doginfo-text h2 {
+    margin: 0;
+    padding-top: .2rem;
+  }
+  
+  .doginfo-text h3 {
+    margin: .5rem;
+  }
+  
+  .doginfo-icons {
+    padding: 1.0rem;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .doginfo-icons img {
+    height: 3.0rem;
+    width: 3.0rem;
+    margin: 0 1.2rem 0 0;
+  }
+  
+
+  .donatebutton {
+    padding: .6rem 1.0rem;
+    font-size: 1.4rem;
+  }
+  
+   .content-container{
+    flex-flow: row nowrap;
+  }
+  
+  .content-subcontainer{
+    flex-flow: column wrap;
+    width: 80%;
+  }
+  
+   footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
+  footer img {
+    height: 2.0rem;
+    width: auto;
+  }
+  
+  .subscribeform-container input[type=text] {
+    width: 100%;
+    border-radius: .4rem 0 0 .4rem;
+    border-right-width: 0;
+    font-size: .7rem;
+    padding: .7rem 0 .7rem .7rem;
+    margin:0;
+  }
+
+
+  .subscribeform-container input[type=submit] {
+    background-position: 10px 10px; 
+    padding: .7rem .2rem;
+    font-size: .7rem;
+  }
+  
+  .dontateheart img {
+    height: 1.5rem;
+    width: 100%;
+  }
+  .donatebutton {
+    font-size: .7rem;
+    height: .7rem;
+  }
 }
 
 
@@ -61,6 +229,29 @@
   body::before {
     content: "810px";
     color: black;
+  }
+  
+  footer img {
+    height: 3.0rem;
+    width: auto;
+  }
+  .subscribeform-container input[type=text] {
+    font-size: 1rem;
+  }
+
+
+  .subscribeform-container input[type=submit] {
+    padding: 9.5px .7rem;
+    font-size: 1rem;
+  }
+
+  .dontateheart img {
+    height: 2.5rem;
+  }
+  .donatebutton {
+    font-size: 1rem;
+    height: 1.7rem;
+    align-items: center;
   }
 
 }

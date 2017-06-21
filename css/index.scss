@@ -1,9 +1,16 @@
 ---
 ---
 
-.content {
+.content-container {
     display: flex;
-    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #dc7431;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-subcontainer {
+    display: flex;
     justify-content: center;
     background-color: #dc7431;
     color: white;
@@ -29,7 +36,7 @@
 }
 
 .bigdogimage-container img {
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
